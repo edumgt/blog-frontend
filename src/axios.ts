@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://blog-backend-vrgr.onrender.com',
+  baseURL: 'http://localhost:3000',
 });
 
 instance.interceptors.request.use((config) => {
